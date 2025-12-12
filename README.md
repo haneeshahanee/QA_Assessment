@@ -214,7 +214,3 @@ I completed this in about an hour as required. Most of that time went into makin
 
 I tested this script multiple times and it works reliably on my machine. However, Amazon sometimes shows CAPTCHAs or changes their layout, so if you run into issues, check the error screenshot first - it usually shows what went wrong.
 ---
-
-**Developed by:** [Your Name]  
-**Date:** December 2024  
-**Purpose:** QA Skill Assessment - Selenium Automation
