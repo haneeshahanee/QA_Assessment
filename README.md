@@ -158,11 +158,10 @@ You can search for anything Amazon sells!
 
 ```
 amazon-automation/
-│
 ├── amazon_search.py          # My main script
 ├── requirements.txt          # Dependencies
-├── product_screenshot.png    # Generated when successful
-└── error.png                 # Generated if something fails
+├── product_screenshot.png    
+README.md                 # This file
 ```
 
 ## Requirements File
