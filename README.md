@@ -11,7 +11,7 @@ I created this script to automatically:
 4. Check if the product page loaded correctly
 5. Save a screenshot of the product page
 
-The whole thing runs automatically once you start it - pretty cool!
+The whole thing runs automatically once you start it
 
 ## Why I Built It This Way
 
@@ -35,13 +35,6 @@ I added automatic screenshots so you can see the final result. If something goes
 - **Key Technique:** WebDriverWait for handling dynamic content
 
 ## Getting Started
-
-### What You Need
-
-Before running my script, make sure you have:
-- Python 3.7 or higher installed
-- Google Chrome browser
-- A working internet connection
 
 ### Installing Dependencies
 
@@ -160,20 +153,6 @@ bot.search_product("wireless mouse")
 ```
 
 You can search for anything Amazon sells!
-
-## My Design Decisions
-
-**Why JavaScript Click?**  
-Regular clicks sometimes fail if elements are slightly off-screen or overlapped. JavaScript clicks are more reliable.
-
-**Why Find Links by URL Pattern?**  
-Amazon frequently changes their CSS classes and IDs, but their URL structure (/dp/) stays consistent. This makes my code more maintainable.
-
-**Why Two Validation Methods?**  
-Having a backup validation (URL check) means the script still works even if Amazon redesigns their buttons.
-
-**Why Take Screenshots?**  
-Screenshots help with debugging and also serve as proof that the automation worked. Plus, it satisfies the assignment requirement!
 
 ## Project Structure
 
