@@ -157,10 +157,9 @@ You can search for anything Amazon sells!
 ## Project Structure
 
 ```
-amazon-automation/
-├── amazon_search.py          # My main script
-├── requirements.txt          # Dependencies
-├── product_screenshot.png    
+amazon_search.py          # My main script
+requirements.txt          # Dependencies
+product_screenshot.png    
 README.md                 # This file
 ```
 
@@ -183,9 +182,6 @@ selenium>=4.15.0
 ✅ **Take screenshot** - Done in `take_screenshot()` method  
 ✅ **Clean code** - Organized in a class with descriptive names  
 
-## Time Spent
-
-I completed this in about an hour as required. Most of that time went into making the element finding robust and testing different scenarios.
 
 ## Testing Notes
 
