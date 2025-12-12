@@ -129,7 +129,7 @@ def navigate_to_homepage(self):
     self.driver.get("https://www.amazon.com")
     input("If you see a CAPTCHA, solve it and press Enter...")
     time.sleep(2)
-    print("✓ Navigated to Amazon")
+    print("Navigated to Amazon")
 ```
 
 ### Elements Not Found
@@ -160,7 +160,6 @@ You can search for anything Amazon sells!
 amazon-automation/
 │
 ├── amazon_search.py          # My main script
-├── README.md                 # This file
 ├── requirements.txt          # Dependencies
 ├── product_screenshot.png    # Generated when successful
 └── error.png                 # Generated if something fails
