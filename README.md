@@ -188,5 +188,5 @@ selenium>=4.15.0
 
 ## Testing Notes
 
-I tested this script multiple times and it works reliably on my machine. However, Amazon sometimes shows CAPTCHAs or changes their layout, so if you run into issues, check the error screenshot first - it usually shows what went wrong.
+I tested this script multiple times and it works reliably on my machine
 ---
