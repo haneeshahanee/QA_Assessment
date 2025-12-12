@@ -157,10 +157,13 @@ You can search for anything Amazon sells!
 ## Project Structure
 
 ```
-amazon_search.py          # My main script
-requirements.txt          # Dependencies
-product_screenshot.png    
-README.md                 # This file
+amazon-automation/
+│
+├── amazon_search.py          # My main script
+├── requirements.txt          # Dependencies
+├── product_screenshot.png    # Generated when successful
+README.md          
+
 ```
 
 ## Requirements File
